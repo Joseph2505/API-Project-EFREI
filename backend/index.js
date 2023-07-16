@@ -7,7 +7,7 @@ const resolvers = require("./graphql/resolvers");
 
 const credentials = require('./credentials.json');
 
-const port = 3001;
+const port = 3000;
 
 const app = express();
 
