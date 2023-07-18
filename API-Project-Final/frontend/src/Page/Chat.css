@@ -1,0 +1,37 @@
+.ChatApp {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  gap: 0.5rem;
+}
+
+.UsernameInput {
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  position: sticky;
+  top: 0;
+  gap: 5px;
+  padding: 2px;
+}
+.ChatMessages {
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+}
+
+.MessageInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.ChatMessages {
+  /* border: 2px solid red; */
+  height: 80%;
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+}
